@@ -1,8 +1,12 @@
-import {Heading} from '.'
+import { Heading } from "./Heading";
+
 
 export default {
     title: 'Heading',
     component: Heading,
+    args: {
+        children:'qualquer coisa'
+    }
 
 };
 
